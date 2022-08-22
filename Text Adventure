@@ -4,7 +4,7 @@ int main(){
 
 int choice,choice2,choice3,choice4;
 
-std::cout<<"There is a story here that is oh so interesting. There are three outcomes that you can choose that will blow your mind. This story is basically the next big thing that the crooks over at Blackrock wish they could get their hands on. To start this story blindly choose option 1 or option 2; \n 1) Story 1 \n 2) Story 2\n Answer= ";
+std::cout<<"There is a story here that is oh so interesting. There are outcomes that you can choose that will blow your mind. This story is basically the next big thing that the crooks over at Blackrock wish they could get their hands on. To start this story blindly choose option 1 or option 2; \n 1) Story 1 \n 2) Story 2\n Answer= ";
 
 std::cin >> choice;
 
