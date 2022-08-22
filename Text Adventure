@@ -1,0 +1,79 @@
+#include <iostream>
+ 
+int main(){
+
+int choice,choice2,choice3,choice4;
+
+std::cout<<"There is a story here that is oh so interesting. There are three outcomes that you can choose that will blow your mind. This story is basically the next big thing that the crooks over at Blackrock wish they could get their hands on. To start this story blindly choose option 1 or option 2; \n 1) Story 1 \n 2) Story 2\n Answer= ";
+
+std::cin >> choice;
+
+if (choice==1){
+
+std::cout<<"This is an uneventful beginning that slowly fills you with suspence. The characters are slowly giving you valuable information that will come into play later as the antagonist makes his play for their long begotten dream of ruling the world.  \n He proposes you to join him and he will give you all of Norway. Do you join him ?\n 1) Yes\n 2) No\n Answer=";
+
+std::cin>>choice2;
+
+if (choice2==1){
+
+  std::cout<<"Great! You joined him and helped take over all of the world. You now own Norway. Congratulation, that place is awesome! \n The game has ended";
+
+}
+
+else if (choice2==2){
+
+  std::cout<<"Why did you not choose to join him? \n He conquered the world and destroyed you along the way. What a sucker, you could have had the beautiful country of Norway. \n The game has ended";}
+
+else {std::cout<<"You have given an invalid answer";}
+
+}
+else if (choice==2){
+
+std::cout<<"This is the boring story where a soda can has appeared to be halfway between your TV. \n What do you do ? \n 1) You call the police. \n 2) You call your physist friend who might know what the heck is going on\n Answer=";
+
+std::cin>>choice2;
+
+if (choice2==1){
+
+  std::cout<<"The police come to your house after you call them and inspect the soda can. They start complaining about you wasting their time and how they were in the middle of lunch at Waffle House. You get annoyed and think about smarting off to them. Do you? \n 1) Yes \n 2) No \n Answer=";
+
+  std::cin>>choice3;
+
+  if (choice3==1){
+
+    std::cout<<"You argue with the cops and they get mad and shoot your dog. \n The game has ended";}
+
+  else if (choice3==2){
+
+    std::cout<<"The cops wrap up their investigation but as they are leaving, they see your dog and get scared and shoot it. What a tragic reality. \n The game has ended";
+
+  }
+
+  }
+
+else if (choice2==2){
+
+std::cout<<"You call your friend and he comes over right away. He exclaims that his experiment was sort of working as he was trying to teleport a soda can to your house and that some of his math must be wrong. He asks you if he can try again with new paramaeters that he has created. \n Do you let him perform the experiment?\n 1) Yes\n 2) No\n Answer=";
+
+std::cin>>choice4;
+
+if (choice4==1){
+
+  std::cout<<"You allowed him to perform the experiment but the soda can accidentally teleported into your brain and has left you brain dead. \n The game has ended";
+
+}
+
+else if (choice4==2){
+
+  std::cout<<"Your friend gets mad at you but understands, You both go to Best Buy and he buys you a nice 77-inch Sony OLED that your wife wouldn't let you buy. He sends the soda can to your house anyway. \n The game has ended";}
+
+else {std::cout<<"You have given an invalid answer";}
+
+}
+else {
+
+std::cout<<"You have given an invalid answer\n";
+
+}
+}
+}
